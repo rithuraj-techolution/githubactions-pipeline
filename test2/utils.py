@@ -7,6 +7,7 @@ data = {
     'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
 }
 
+
 df = pd.DataFrame(data)
 
 # Display the DataFrame
