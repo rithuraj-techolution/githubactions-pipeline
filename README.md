@@ -1,20 +1,20 @@
-# Project Title: Python Utility Toolset
+# Python Utility Toolset
 
 ## Overview
-This project is a simple utility toolset providing basic arithmetic operations, data manipulation with pandas, and colorized console output. It demonstrates how to combine core Python functionalities with third-party libraries to enhance console applications.
+The Python Utility Toolset is a versatile project that combines basic arithmetic operations, data manipulation using pandas, and colorized console output to demonstrate how core Python functionalities can be enhanced with third-party libraries.
 
 ## File Descriptions
 
 ### 1. `main.py`
-- **Purpose**: Demonstrates basic console output with enhanced visuals.
+- **Purpose**: Provides an example of console output with enhanced visuals using color.
 - **Functions and Features**: 
-  - Uses the `colorama` library to print "Hello World" in red text.
+  - Utilizes the `colorama` library to print "Hello World" in red text.
 - **Dependencies**: 
-  - `colorama` - A library to produce colored terminal text. 
+  - [`colorama`](https://pypi.org/project/colorama/) - To produce colored terminal text. 
   - **Installation**: `pip install colorama`
 
 ### 2. `utils.py`
-- **Purpose**: Performs basic arithmetic operations.
+- **Purpose**: Provides basic arithmetic operations.
 - **Functions and Features**:
   - `add(a, b)`: Returns the sum of `a` and `b`.
   - `subtract(a, b)`: Returns the difference of `a` and `b`.
@@ -23,17 +23,19 @@ This project is a simple utility toolset providing basic arithmetic operations, 
 - **Dependencies**: None
 
 ### 3. `data_utils.py`
-- **Purpose**: Demonstrates basic data manipulation using pandas.
+- **Purpose**: Demonstrates data manipulation using pandas.
 - **Functions and Features**:
   - Creates a DataFrame with sample data.
-  - Calculates the mean age, filters data based on age, and adds a column for age in 5 years.
+  - Calculates and prints the mean age.
+  - Filters and displays data based on age.
+  - Adds a column showing age in 5 years.
 - **Dependencies**: 
-  - `pandas` - A powerful data analysis and manipulation library.
+  - [`pandas`](https://pandas.pydata.org/) - For data analysis and manipulation.
   - **Installation**: `pip install pandas`
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
-2. Install required dependencies using the command:
+2. Install required dependencies with:
    ```bash
    pip install colorama pandas
    ```
@@ -41,14 +43,13 @@ This project is a simple utility toolset providing basic arithmetic operations, 
 ## Usage Guide
 
 ### Running Files
-- **`main.py`**: 
+- **`main.py`**: Run the following command to see "Hello World" in red:
   ```bash
   python main.py
   ```
-  - **Output**: Displays "Hello World" in red.
 
-- **Utility Operations (`utils.py`)**:
-  - Import `utils.py` in your script and call functions like:
+- **Arithmetic Functions (`utils.py`)**:
+  - Use these functions by importing `utils.py` in your scripts:
     ```python
     from utils import add, subtract, multiply, divide
 
@@ -60,18 +61,18 @@ This project is a simple utility toolset providing basic arithmetic operations, 
   ```bash
   python data_utils.py
   ```
-  - **Output**: Displays the sample DataFrame, mean age, filtered data, and updates to the DataFrame.
+  - **Output**: Outputs the sample DataFrame, mean age, filtered data, and updated DataFrame.
 
 ## How the Files Relate
-- `main.py` demonstrates integration with external libraries for styling console output.
-- `utils.py` provides basic arithmetic functions that can be included in other Python scripts.
-- `data_utils.py` uses pandas for data handling, showing how data manipulation can be performed efficiently.
+- `main.py` shows integration with external libraries for enhanced console output.
+- `utils.py` offers standalone functions for arithmetic tasks.
+- `data_utils.py` employs pandas for clear demonstrations of data handling capabilities.
 
 ## Contributing
-Feel free to open issues or submit pull requests to enhance functionality or add new features.
+Contributions in the form of issues or pull requests are welcome to improve this toolset or to add features.
 
 ## License
 This project is licensed under the MIT License.
 
 ## Contact
-For questions, feel free to reach out via email at `your-email@example.com`.
+For any questions, please reach out via email at `your-email@example.com`.
