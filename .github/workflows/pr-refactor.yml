@@ -4,7 +4,8 @@ on:
   pull_request:
     types: [opened, reopened, synchronize]
     branches: 
-      main
+      - main
+      - dev
   workflow_dispatch:
 
 env:
