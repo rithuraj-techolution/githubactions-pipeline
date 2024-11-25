@@ -1,6 +1,7 @@
 import pandas as pd
 
 # Create a sample DataFrame
+
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David'],
     'Age': [24, 27, 22, 32],
